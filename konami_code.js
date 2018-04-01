@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   let index = 0;
 
-  document.body.addEventListener('keydown', function(e)) {
+  document.body.addEventListener('keydown', function(e) {
   const input = parseInt(e.detail || e.which);
 
 if (input === code[index]) {
@@ -18,5 +18,5 @@ if (input === code[index]) {
  } else {
    index = 0;
  }
-}
+});
 }
